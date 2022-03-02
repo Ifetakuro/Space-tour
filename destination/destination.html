@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="destination.css" />
+    <title>Space Tourism</title>
+  </head>
+  <body>
+    <div class="hero-section">
+      <header>
+        <div>
+          <div class="tiny-circle">
+            <svg
+              class="svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Group 2">
+                <circle id="Oval" cx="24" cy="24" r="24" fill="white" />
+                <path
+                  id="Path"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 0C24 0 24 24 0 24C23.5776 24.1714 24 48 24 48C24 48 24 24 48 24C24 24 24 0 24 0Z"
+                  fill="#0B0D17"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- star -->
+        </div>
+        <hr />
+        <nav class="nav">
+          <ul id="nav-lists">
+            <li class="nav-list">
+              <a href="../home/home.html" class="nav-link"
+                ><span class="list-span">00</span>HOME</a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="destination.html" class="nav-link active"
+                ><span class="list-span" class="nav-link">01</span
+                >DESTINATION</a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="../crew/crew.html" class="nav-link"
+                ><span class="list-span">02</span>CREW</a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="../technology/tech.html" class="nav-link"
+                ><span class="list-span">03</span>TECHNOLOGY</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="toggle"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </header>
+      <section id="big-container">
+        <div class="dest-title">
+          <h1 class="dest-h1">
+            01<span class="dest-h1-span">PICK YOUR DESTINATION</span>
+          </h1>
+        </div>
+        <main class="dest-main">
+          <section class="image-section">
+            <img id="my-image" src="../images/moon.png" alt="moon" />
+          </section>
+          <section class="dest-info">
+            <nav class="dest-nav">
+              <ul id="dest-lists">
+                <li class="dest-list moon">
+                  <a href="#moon" class="dest-link highlight">MOON</a>
+                </li>
+                <li class="dest-list mars">
+                  <a href="#mars" class="dest-link">MARS</a>
+                </li>
+                <li class="dest-list europa">
+                  <a href="#europa" class="dest-link">EUROPA</a>
+                </li>
+                <li class="dest-list titan">
+                  <a href="#titan" class="dest-link">TITAN</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="info-div">
+              <span class="main-span">MOON</span>
+              <p class="info-p">
+                See our planet as you’ve never seen it before. A perfect
+                relaxing trip away to help regain perspective and come back
+                refreshed. While you’re there, take in some history by visiting
+                the Luna 2 and Apollo 11 landing sites.
+              </p>
+            </div>
+            <div class="distance-div">
+              <div>
+                <small class="distance-small distance-small-one"
+                  >AVG. DISTANCE</small
+                >
+                <p class="distance-p distance-p-one">384,400 km</p>
+              </div>
+              <div>
+                <small class="distance-small distance-small-two"
+                  >Est. travel time</small
+                >
+                <p class="distance-p distance-p-two">3 days</p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </section>
+    </div>
+    <script src="destination.js"></script>
+    <script src="../home/script.js"></script>
+  </body>
+</html>
